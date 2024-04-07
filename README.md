@@ -1,5 +1,5 @@
 # carc_topmed_analysis_pipeline
-Adaptation of the [TOPMed analysis pipeline] (https://github.com/UW-GAC/analysis_pipeline) to run on CARC at USC
+Adaptation of the [TOPMed analysis pipeline](https://github.com/UW-GAC/analysis_pipeline) to run on CARC at USC
 
 Split into multiple pipelines:
 - Generate PCs and GRM from array data
