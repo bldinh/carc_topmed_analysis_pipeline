@@ -47,7 +47,7 @@ job = "plink_make-bed"
 bedprefix = configdict["bed_file"]
 arglist = ["--bfile", bedprefix, "--make-bed", "--out", bedprefix]
 
-cmd = f'/scratch1/bldinh/programs/plink --bfile {bedprefix} --make-bed --out {bedprefix}'
+cmd = f'/project/chia657_28/programs/plink/plink1.90/plink --bfile {bedprefix} --make-bed --out {bedprefix}'
 subprocess.run(cmd, shell=True)
 
 ## when input and output files have same name, plink renames input with "~"
