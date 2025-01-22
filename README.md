@@ -3,11 +3,11 @@ Adaptation of the [TOPMed analysis pipeline](https://github.com/UW-GAC/analysis_
 
 Installation:
 
-GENESIS
-
-Matrix
+Use the `0_install_r_libraries.R` script to install the required libraries for GENESIS.
 
 The following may be needed to change the tmp directory:
+
+
 Create ~/.Renviron file with the following:
 
     TMP = /scratch1/[USERID]/tmp
